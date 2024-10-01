@@ -12,4 +12,4 @@ NumberSplit
 
 CountExpressions:
 - Initial Thought: The rule of the problem requires forming as many different expressions as possible using the numbers x and y exactly twice, with the operators +, -, and *, such that the result equals a given value val. My initial approach is to generate all permutations of the numbers [x, x, y, y] and all combinations of the operators. For each combination, I will construct the expression and evaluate it from left to right. This involves a nested loop for operators and generating permutations for the numbers.
-- Reflections: 
+- Reflections: Initially, I faced challenges in ensuring the correct evaluation of expressions since operations must be performed left to right without operator precedence. I also needed to handle duplicate expressions by using a set to store unique expressions. After implementing the solution, it correctly handled all test cases. The use of permutations and combinations ensured that all possible expressions were considered. The final implementation is efficient and as readable as possible, which I'm happy with.
