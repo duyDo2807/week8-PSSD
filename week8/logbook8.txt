@@ -1,3 +1,3 @@
 Thimbles:
 - Initial thought: The problem requires determining the position of the ball after a series of swaps between thimbles. My initial thought is to initialize the ball's position as 1 (as stated as the problem's rule) and iterate through the swap operations. For each swap, I convert the number string to integer and check if the ball is under one of the swapped thimbles and, if so, update its position accordingly. The approach is straightforward, and I will use a simple loop to process the swaps.
-- Reflections:
+- Reflections: The code worked as expected, and the ball's final position was correctly determined in all test cases. The logic is simple, and by iterating through each swap, I ensured that the solution efficiently handles the problem. Overall, I'm happy with the readability and performance of my solution.
