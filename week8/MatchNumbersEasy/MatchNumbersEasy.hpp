@@ -42,26 +42,3 @@ class MatchNumbersEasy {
     return dp[n];
   }
 };
-
-int main() {
-  MatchNumbersEasy matchNumbers;
-
-  // Test case 0
-  vector<int> matches = {6, 7, 8};
-  cout << matchNumbers.maxNumber(matches, 21) << endl;  // Output: 210
-
-  // Test case 1
-  matches = {5, 23, 24};
-  cout << matchNumbers.maxNumber(matches, 30) << endl;  // Output: 20
-
-  // Test case 2
-  matches = {1, 5, 3, 2};
-  cout << matchNumbers.maxNumber(matches, 1) << endl;  // Output: 0
-
-  // Test case 3
-  matches = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-  cout << matchNumbers.maxNumber(matches, 50)
-       << endl;  // Output: 99999999999999999999999999999999999999999999999999
-
-  return 0;
-}
